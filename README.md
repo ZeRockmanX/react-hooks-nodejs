@@ -1,11 +1,7 @@
 # Install
-Need install nodejs and tools:yarn
+Need install nodejs and yarn
 
-# BackEnd
-## run
-> cd server
-> node app.js
-
+<br/>
 
 # UI
 ## install
@@ -15,3 +11,14 @@ Need install nodejs and tools:yarn
 ## run
 > cd frontui
 > yarn start
+
+<br/>
+
+# BackEnd
+## install
+> cd server
+> yarn install
+
+## run
+> cd server
+> node app.js
