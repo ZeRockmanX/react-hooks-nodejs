@@ -8,6 +8,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@types/luxon": "^1.26.5",
     "@types/react": "^17.0.4",
     "@types/react-html-parser": "^2.0.1",
     "@types/react-select": "^4.0.15",
@@ -16,6 +17,7 @@
     "brace": "^0.11.1",
     "cross-env": "^7.0.3",
     "css-loader": "^5.2.4",
+    "customize-cra": "^1.0.0",
     "draft-js": "^0.11.7",
     "js-cookie": "^2.2.1",
     "luxon": "^1.26.0",
@@ -25,10 +27,12 @@
     "mobx-react-lite": "^3.2.0",
     "mobx-react-router": "^4.1.0",
     "react": "^17.0.2",
+    "react-app-rewired": "^2.1.8",
     "react-dom": "^17.0.2",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-select": "^4.3.0",
     "react-tooltip": "^4.2.18",
     "style-loader": "^2.0.0",
     "styled-components": "^5.3.0",
@@ -36,10 +40,10 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "cross-env PORT=4001 react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": " cross-env PORT=4001 react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
     "extends": [

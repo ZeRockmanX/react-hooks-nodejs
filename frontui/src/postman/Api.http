@@ -1,0 +1,35 @@
+# Please use vscode plug-in: Rest Client
+# https://github.com/Huachao/vscode-restclient
+
+### 01 Title: set variable
+# @name valOne
+@p2 = "p2_data"
+Post http://localhost:4002/testApi/
+#Request headers
+Content-type: application/json
+
+{
+    "test_key_01": "test_data_01",
+    "param": {
+        "test_key_02": "test_data_02",
+        "test_key_03": "test_data_03"
+    }
+}
+
+
+### 02 Title: use variable
+Post http://localhost:4002/testApi
+#Request headers
+Content-type: application/json
+#form data
+sendInfo: {{ p2 }}
+testInfo: {{ valOne.response.body.infoReturn }}
+
+{
+    "test_key_01": "test_data_01",
+    "param": {
+        "test_key_03": "{{ valOne.response.body.infoReturn }}"
+    }
+}
+
+###

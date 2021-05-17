@@ -1,4 +1,184 @@
-#root {
-  margin:0 auto;
-  width: 1000px;
+body {
+	width: 1200px;
+	margin: 0px auto;
+	background-image: none;
+}
+
+.clean {
+	margin: 0;
+	padding: 0;
+	height: 0;
+	clear: both;
+}
+
+.base {
+	line-height: 24px;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
+.flex {
+	display: flex !important;
+	align-items: center;
+	margin: 15px 0;
+}
+
+.inline {
+	display: inline;
+}
+
+.w100 {
+	width: 100px;
+}
+
+.w150 {
+	width: 150px;
+}
+
+.w200 {
+	width: 200px;
+}
+
+.wMax {
+	width: 100%;
+}
+
+.login_button {
+	margin-top: -15px;
+	width: 150px;
+}
+
+.login_banner {
+	width: 800px;
+	height: 30px;
+	margin: 20px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.action_banner {
+	width: 800px;
+	height: 30px;
+	margin: 30px 0px 20px 0px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.action_button {
+	margin-top: -15px;
+	width: 150px;
+}
+
+.obj_list {
+	margin: 20px 0;
+}
+
+.obj_list_header {
+	margin-bottom: 5px;
+}
+
+.plan_setting {
+	margin: 20px 0;
+}
+
+.plan_setting_header {
+	margin-bottom: 5px;
+}
+
+.buy_setting {
+	width: 380px;
+	margin-right: 20px;
+}
+
+.buy_setting_flex {
+	display: flex;
+}
+
+.buy_setting_plan {
+	display: flex;
+	flex-direction: column;
+}
+
+.buy_setting_plan > label {
+	margin-bottom: 0 !important;
+}
+
+.buy_setting_plan_flex {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.sell_setting {
+	width: 380px;
+}
+
+.sell_setting_flex {
+	display: flex;
+}
+
+.sell_setting_plan {
+	display: flex;
+	flex-direction: column;
+}
+
+.sell_setting_plan > label {
+	margin-bottom: 0 !important;
+}
+
+.sell_setting_plan_flex {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.ranking_list_800 > table {
+	width: 800px;
+	text-align: center;
+}
+
+.ranking_list_1200 > table {
+	width: 1200px;
+	text-align: center;
+}
+
+.ranking_list_table_header th {
+	border-bottom: 1px solid #444;
+}
+
+.ranking_list_table_header th {
+	border-right: 1px solid #444;
+}
+
+.ranking_list_table_header th:last-child {
+	border-right: 0;
+}
+
+table.ranking_list_table {
+	border: 2px solid #444;
+	border-spacing: 0;
+}
+
+table.ranking_list_table tr {
+	border-bottom: 1px solid #444;
+}
+
+table.ranking_list_table td {
+	border-right: 1px solid #444;
+	border-bottom: 1px solid #444;
+	padding: 5px;
+}
+
+table.ranking_list_table tr td:last-child {
+	border-right: 0;
+}
+
+table.ranking_list_table tr:last-child td {
+	border-bottom: 0;
 }
