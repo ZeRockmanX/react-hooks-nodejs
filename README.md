@@ -16,14 +16,14 @@ Need install nodejs and yarn
 > source .profile  
 > #查看环境变量  
 > node -v && npm -v && npx -v  
-> #v10.15.1  
+> #v14.17.0  
 > #v6.4.1  
 > whereis node  
-> #node: /opt/graalvm-ce-1.0.0-rc12/bin/node /opt/node-v10.15.1-linux-x64/bin/node  
+> #node: /opt/graalvm-ce-1.0.0-rc12/bin/node /opt/node-v14.17.0-linux-x64/bin/node  
 > whereis npm  
-> #npm: /opt/graalvm-ce-1.0.0-rc12/bin/npm /opt/node-v10.15.1-linux-x64/bin/npm  
+> #npm: /opt/graalvm-ce-1.0.0-rc12/bin/npm /opt/node-v14.17.0-linux-x64/bin/npm  
 > whereis npx  
-> #npx: /opt/node-v10.15.1-linux-x64/bin/npx  
+> #npx: /opt/node-v14.17.0-linux-x64/bin/npx  
 > #使用淘宝源  
 > npm set registry https://registry.npm.taobao.org \  
 > npm set disturl https://npm.taobao.org/dist \  
